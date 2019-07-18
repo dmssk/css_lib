@@ -1,0 +1,121 @@
+/*RESETS AND NORMALIZINGS*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*CUSTOM GRID COLUMNS*/
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-11 {
+    width: 91.66666%;
+}
+
+.col-10 {
+    width: 83.33333%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-8 {
+    width: 66.66666%;
+}
+
+.col-7 {
+    width: 66.66666%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-5 {
+    width: 41.66666%;
+}
+
+.col-4 {
+    width: 33.33333%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 16.66666%;
+}
+
+.col-1 {
+    width: 8.33333%;
+}
+
+/*COLUMNS MEDIA*/
+
+@media screen and (max-width: 1367px) {
+    .collapse-xxl {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .collapse-xl {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .collapse-l {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .collapse-m {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .collapse-s {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .collapse-xs {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .collapse-xxs {
+        width: 100%;
+    }
+}
